@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+body {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    background-color: #BC9282;
+    color: #FBFDE8;
+    font-size: 15px;
+}
+
+.title{
+    background-color: #1B0603;
+    padding: 15px 15px;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+#minhafoto{
+    border: 2px;
+    border-color: #5B6358;
+    border-style: solid;
+    border-radius: 100%;
+}
