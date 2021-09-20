@@ -1,25 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    background-color: #BC9282;
-    color: #FBFDE8;
-    font-size: 15px;
+  /* font-family: 'Atkinson Hyperlegible', sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #ced2dc;
+  color: #2a2522;
+  font-size: 15px;
 }
 
-.title{
-    background-color: #1B0603;
-    padding: 15px 15px;
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-h1 {
-    font-size: 3em;
-    text-align: center;
+.description-container {
+  background-color: #a3b4a2;
+  flex-direction: column;
+  color: #4a6670;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 5px inset #4a6670;
+  border-bottom: 5px inset #4a6670;
+  border-radius: 26px;
+  height: 650px;
+  width: 600px;
+  justify-content: start;
+  margin-top: 5px;
 }
 
-#minhafoto{
-    border: 2px;
-    border-color: #5B6358;
-    border-style: solid;
-    border-radius: 100%;
+.name-container {
+  display: flex;
+  align-items: center;
+  height: 235px;
+  width: 470px;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
+}
+
+.my-pic {
+  border-radius: 100%;
+  border: 1px solid black;
+  box-shadow: 5px 4px 12px 5px #8ef9f3;
+}
+
+.name {
+  text-shadow: #8ef9f3 3px 5px 2px;
+}
+
+.right-image {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  align-items: center;
+}
+
+.logo {
+  width: 32px;
+}
+
+.social-midia {
+  margin-top: 20px;
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 5px;
+  align-items: center;
+  justify-content:start;
+}
+
+.description h2 {
+  height: 50px;
+}
+
+.description section {
+  text-align: left;
+  width: 500px;
+}
+
+.about-me {
+  margin-top: 10px;
+  text-align: right;
 }
